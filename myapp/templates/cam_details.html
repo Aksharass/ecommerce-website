@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>UltraBook Pro Details</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   {% load static %}
+  <link rel="stylesheet" href="{% static 'css/productDetails.css' %}">
+</head>
+<body>
+
+<div class="container mt-5">
+  <!-- Product 1 Detail -->
+<div id="product1" class="product-details mt-5">
+  <h2>Canon EOS 90D DSLR Camera </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/cam/alexander-wang-KjyrxSHwqTg-unsplash.jpg' %}" class="img-fluid" alt="Canon EOS 90D DSLR Camera">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 1,20,549.99</p>
+      <p><strong>Discount:</strong> 20% off</p>
+      <p><strong>Description:</strong> The Canon EOS 90D is a powerful DSLR camera offering a high resolution of 32.5 MP.</p>
+      <p><strong>Features:</strong></p>
+      <ul>
+        <li>32.5 MP APS-C sensor</li>
+        <li>4K video recording</li>
+        <li>Dual Pixel autofocus</li>
+      </ul>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Canon EOS 90D DSLR Camera' 120549%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Canon EOS 90D DSLR Camera' 120549%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 2 Detail -->
+<div id="product2" class="product-details mt-5">
+  <h2>Canon EOS M50 Mirrorless Camera </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/cam/hanson-lu-gGgoDJRD2WM-unsplash.jpg' %}" class="img-fluid" alt="Canon EOS M50 Camera">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 35,599.99</p>
+      <p><strong>Discount:</strong> 10% off</p>
+      <p><strong>Description:</strong> A compact mirrorless camera with an interchangeable lens and 4K capabilities.</p>
+      <p><strong>Features:</strong></p>
+      <ul>
+        <li>24.1 MP APS-C sensor</li>
+        <li>4K video support</li>
+        <li>Dual Pixel autofocus</li>
+      </ul>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Canon EOS M50 Mirrorless Camera' 35599%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Canon EOS M50 Mirrorless Camera' 35599%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 3 Detail -->
+<div id="product3" class="product-details mt-5">
+  <h2>Canon EOS 1500D DSLR Camera </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/cam/paul-gaudriault-cwy9yVBBPxg-unsplash.jpg' %}" class="img-fluid" alt="Canon EOS 1500D Camera">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 56,299.99</p>
+      <p><strong>Discount:</strong> 15% off</p>
+      <p><strong>Description:</strong> The Canon EOS 1500D is a versatile DSLR camera suitable for beginners.</p>
+      <p><strong>Features:</strong></p>
+      <ul>
+        <li>24.1 MP sensor</li>
+        <li>Full HD video</li>
+        <li>18-55 mm IS II lens</li>
+      </ul>
+     <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Canon EOS 1500D DSLR Camera ' 56299%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Canon EOS 1500D DSLR Camera ' 56299%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 4 Detail -->
+<div id="product4" class="product-details mt-5">
+  <h2>Sony Cyber-shot DSC-HX99 Camera </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/cam/conor-luddy-IVaKksEZmZA-unsplash.jpg' %}" class="img-fluid" alt="Sony Cyber-shot Camera">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 1,00,449.99</p>
+      <p><strong>Discount:</strong> 25% off</p>
+      <p><strong>Description:</strong> The Sony Cyber-shot DSC-HX99 is a compact digital camera with advanced features.</p>
+      <p><strong>Features:</strong></p>
+      <ul>
+        <li>18.2 MP sensor</li>
+        <li>4K video recording</li>
+        <li>24-720mm zoom lens</li>
+      </ul>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Sony Cyber-shot DSC-HX99 Camera' 100449%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Sony Cyber-shot DSC-HX99 Camera' 100449%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

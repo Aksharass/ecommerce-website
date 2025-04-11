@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+.about-content, .mission-content, .vision-content, .value-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-content:hover, .mission-content:hover, .vision-content:hover, .value-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-section, .mission-vision-section, .values-section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.value-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.value-card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.value-card p {
+    color: #555;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.about-content, .mission-content, .vision-content, .value-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-content:hover, .mission-content:hover, .vision-content:hover, .value-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.containe{
+    padding: 10px;
+    border: 1px solid #f0eded;
+    border-radius: 5px;
+    background-color: #f1e8e8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}

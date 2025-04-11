@@ -1,0 +1,335 @@
+body{
+    background-color: rgb(216, 213, 213);
+}
+
+.carousel-item{
+    background-image: cover;
+    height: 400px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 12%; /* Adjust this value to move it further left or right */
+    transform: translateY(-50%); /* Center vertically */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px 10px; /* Adjust padding to make the box smaller */
+    border-radius: 5px;
+    text-align: left; /* Align text to the left */
+    display: inline-block; /* Ensure the box only takes up as much space as the content */
+    max-width: 250px; /* Set a maximum width if needed */
+  }
+
+  .carousel-caption-lap {
+    position: absolute;
+    top: 50%;
+    right: 12%; /* Adjust this value to move it further left or right */
+    transform: translateY(-50%); /* Center vertically */
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px 10px; /* Adjust padding to make the box smaller */
+    border-radius: 5px;
+    text-align: left; /* Align text to the left */
+    display: inline-block; /* Ensure the box only takes up as much space as the content */
+    max-width: 250px; /* Set a maximum width if needed */
+  }
+
+  .deal {
+    margin-bottom: 30px;
+  }
+  .deal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .deal-details {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Footer styles */
+  footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    padding: 20px 20px;
+    text-align: center; /* Centered text */
+}
+
+footer h5 {
+    margin: 10px 0; /* Spacing for footer heading */
+}
+
+footer p {
+    margin: 5px 0; /* Spacing for footer text */
+}
+
+.footer-links {
+    margin: 10px 0;
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: center; /* Center the items */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+}
+
+.footer-links a {
+    color: #4CAF50; /* Green links */
+    margin: 0 15px;
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.newsletter {
+    margin-top: 15px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Feedback section styles */
+.feedback-section {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f9f9f9; /* Light background for feedback */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    max-width: 400px; /* Set a max width */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+
+.feedback-section h3 {
+    margin-top: 0; /* Remove default margin */
+    text-align: center; /* Center the heading */
+}
+
+.feedback-section input[type="text"],
+.feedback-section textarea {
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px;
+    margin: 10px 0; /* Space above and below */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.feedback-section button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width for button */
+}
+
+.feedback-section button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Social icons */
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #4CAF50; /* Icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: white; /* Change icon color on hover */
+}
+
+/* deals */
+.deal {
+    margin-bottom: 30px;
+  }
+  .deal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.containe{
+    padding: 10px;
+    border: 1px solid #f0eded;
+    border-radius: 5px;
+    background-color: #f1e8e8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.deal img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+.deal img:hover {
+    transform: scale(1.05);
+}
+.deal {
+    margin-bottom: 20px;
+}
+.big-deal img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+.big-deal img:hover {
+    transform: scale(1.05);
+}
+
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.blur-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    display: none; /* Initially hidden */
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.form-container, .profile-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Above the blur-bg */
+    display: none; /* Initially hidden */
+}
+
+.form-container h2, .profile-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container form, .profile-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input, .profile-container form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container form button, .profile-container form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container form button:hover, .profile-container form button:hover {
+    background-color: #0056b3;
+}
+
+.form-container p, .profile-container p {
+    margin-top: 10px;
+}
+
+.form-container p a, .profile-container p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-container p a:hover, .profile-container p a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar {
+    background-color: #007bff;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.nav-bar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.account-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.button-container {
+    margin-top: 20px;
+}

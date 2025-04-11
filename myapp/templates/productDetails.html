@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UltraBook Pro Details</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   {% load static %}
+  <link rel="stylesheet" href="{% static 'css/productDetails.css' %}">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="{% static 'images/logo.jpg' %}" width="30" height="30" alt="logo">
+  </a>
+  <a class="navbar-brand" href="#">TrendWave</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'product' %}">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'about' %}">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarAccount" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i> Account
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarAccount">
+            <a class="dropdown-item" href="{% url 'sign_in' %}" >Sign In</a>
+            <a class="dropdown-item" href="{% url 'sign_up' %}" >Sign Up</a>
+
+        </div>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+      </li>
+    </ul>
+  </nav>
+
+<div class="container mt-5">
+  <h2>UltraBook Pro Details</h2>
+
+  <div class="row product-details">
+    <div class="col-md-6 product-image">
+      <img src="{% static 'images/lap/alejandro-escamilla-yC-Yzbqy7PY-unsplash.jpg' %}" alt="UltraBook Pro" class="img-fluid mb-3">
+    </div>
+    <div class="col-md-6">
+
+      <p class="discount"><strong>Discount:</strong> 20% off</p>
+      <p class="price"><strong>Price:</strong> $799 (was $999)</p>
+      <p><strong>Features:</strong></p>
+      <ul>
+        <li>15.6-inch display</li>
+        <li>8GB RAM</li>
+        <li>256GB SSD</li>
+        <li>Intel i5 processor</li>
+      </ul>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'UltraBook Pro' 799%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'UltraBook Pro' 799%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

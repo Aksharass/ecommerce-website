@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping App</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/product_items.css' %}">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="{% static 'images/logo.jpg' %}" width="30" height="30" alt="">
+  </a>
+  <a class="navbar-brand" href="#">TrendWave</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Deals</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarAccount" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user"></i> Account
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarAccount">
+          <a class="dropdown-item" href="#" onclick="showSignIn()">Sign In</a>
+          <a class="dropdown-item" href="#" onclick="showSignUp()">Sign Up</a>
+          <a class="dropdown-item" href="#" onclick="showProfile()">My Profile</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="containe mt-4">
+  <div class="card-container">
+    <div class="card">
+      <a href="{% url 'headset_det' %}"><img src="{% static 'images/headset/daniel-romero-6V5vTuoeCZg-unsplash.jpg' %}" class="card-img-top" alt="Product 1"></a>
+      <div class="card-body">
+        <h6 class="card-title">boAt Airdopes Alpha 35 Hrs Playback</h6>
+        <p>
+          <span class="card-price">2459.99</span>
+          <span class="card-discount">20% off</span>
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <a href="{% url 'headset_det' %}"><img src="{% static 'images/headset/lee-campbell-GI6L2pkiZgQ-unsplash.jpg' %}" class="card-img-top" alt="Product 2"></a>
+      <div class="card-body">
+        <h6 class="card-title">boAt Rockerz 450 Bluetooth On Ear Headphones with Mic
+        </h6>
+        <p>
+          <span class="card-price">4559.99</span>
+          <span class="card-discount">10% off</span>
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <a href="{% url 'headset_det' %}"><img src="{% static 'images/headset/khoa-nguyen-Kf2kr_BhaTk-unsplash.jpg' %}" class="card-img-top" alt="Product 3"></a>
+      <div class="card-body">
+        <h6 class="card-title">Boult Audio W20 Truly Wireless in Ear Earbuds with 35H Playtime Zen ENC Mic</h6>
+        <p>
+          <span class="card-price">1899.99</span>
+          <span class="card-discount">35% off</span>
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <a href="{% url 'headset_det' %}"><img src="{% static 'images/headset/c-d-x-HwwQZZdQHtc-unsplash.jpg' %}" class="card-img-top" alt="Product 4"></a>
+      <div class="card-body">
+        <h6 class="card-title">Zebronics Zeb Duke Bluetooth Wireless Headphone with Mic</h6>
+        <p>
+          <span class="card-price">2909.99</span>
+          <span class="card-discount">15% off</span>
+        </p>
+      </div>
+    </div>
+
+      <div class="card">
+        <a href="{% url 'headset_det' %}"><img src="{% static 'images/headset/edwin-splisser-QUE8lkDerp8-unsplash.jpg' %}" class="card-img-top" alt="Product 4"></a>
+        <div class="card-body">
+          <h6 class="card-title">OnePlus Nord Buds 2r True Wireless in Ear Earbuds with Mic</h6>
+          <p>
+            <span class="card-price">4709.99</span>
+            <span class="card-discount">9% off</span>
+          </p>
+        </div>
+    </div>
+
+        <div class="card">
+            <a href="{% url 'headset_det' %}"><img src="{% static 'images/headset/kenny-eliason-bE3_aFt85Y8-unsplash.jpg' %}" class="card-img-top" alt="Product 4"></a>
+            <div class="card-body">
+              <h6 class="card-title">Noise Two Wireless Headphones with 50 Hours of Playtime</h6>
+              <p>
+                <span class="card-price">1649.99</span>
+                <span class="card-discount">2% off</span>
+              </p>
+            </div>
+       </div>
+       <div class="card">
+        <a href="{% url 'headset_det' %}"><img src="{% static 'images/headset/c-d-x-PDX_a_82obo-unsplash.jpg" class="card-img-top" alt="Product 4"></a>
+        <div class="card-body">
+          <h6 class="card-title">boAt Rockerz 370 On Ear Bluetooth Headphones</h6>
+          <p>
+            <span class="card-price">2809.99</span>
+            <span class="card-discount">25% off</span>
+          </p>
+        </div>
+        </div>
+        <div class="card">
+            <a href="{% url 'headset_det' %}"><img src="{% static 'images/headset/arjun-anil-ymfiokQznTo-unsplash.jpg' %}" class="card-img-top" alt="Product 4"></a>
+            <div class="card-body">
+              <h6 class="card-title">boAt Nirvana Ion Truly Wireless in Ear Ear Buds
+            </h6>
+              <p>
+                <span class="card-price">1349.99</span>
+                <span class="card-discount">5% off</span>
+              </p>
+            </div>
+        </div>
+
+      
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

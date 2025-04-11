@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UltraBook Pro Details</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   {% load static %}
+  <link rel="stylesheet" href="{% static 'css/productDetails.css' %}">
+</head>
+<body>
+
+<div class="container mt-5">
+<!-- Product 1 Detail: Asus Vivobook 15 -->
+<div id="product1" class="product-details mt-5">
+  <h2>Asus Vivobook 15 </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/lap/alex-knight-j4uuKnN43_M-unsplash.jpg' %}" class="img-fluid" alt="Asus Vivobook 15">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 56459.99</p>
+      <p><strong>Discount:</strong> 20% off</p>
+      <p><strong>Description:</strong> A budget-friendly laptop with solid performance for everyday tasks, featuring a 15.6-inch screen and a fast Intel processor.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Asus Vivobook 15' 56459%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Asus Vivobook 15' 56459%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 2 Detail: Acer Aspire 3 -->
+<div id="product2" class="product-details mt-5">
+  <h2>Acer Aspire 3 </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/lap/anete-lusina-zwsHjakE_iI-unsplash.jpg' %}" class="img-fluid" alt="Acer Aspire 3">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 98759.99</p>
+      <p><strong>Discount:</strong> 40% off</p>
+      <p><strong>Description:</strong> A sleek and reliable laptop with great performance for work and play, equipped with a powerful AMD Ryzen processor and ample storage for files and multimedia.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Acer Aspire 3 ' 98759%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Acer Aspire 3 ' 98759%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 3 Detail: Dell Inspiron 15 -->
+<div id="product3" class="product-details mt-5">
+  <h2>Dell Inspiron 15 </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/lap/christopher-gower-m_HRfLhgABo-unsplash (1).jpg' %}" class="img-fluid" alt="Dell Inspiron 15">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 87799.99</p>
+      <p><strong>Discount:</strong> 35% off</p>
+      <p><strong>Description:</strong> A high-performance laptop that combines power and style. Perfect for professionals who need reliability and portability, featuring an Intel i7 processor and 16GB RAM.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Dell Inspiron 15' 87799%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Dell Inspiron 15' 87799%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 4 Detail: AHP Intel Celeron N4020 -->
+<div id="product4" class="product-details mt-5">
+  <h2>AHP Intel Celeron N4020 </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/lap/lauren-mancke-aOC7TSLb1o8-unsplash.jpg' %}" class="img-fluid" alt="AHP Intel Celeron N4020">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 67899.99</p>
+      <p><strong>Discount:</strong> 15% off</p>
+      <p><strong>Description:</strong> The AHP Intel Celeron laptop is designed for those who want affordability without sacrificing essential functionality, featuring a 14-inch display and up to 4GB RAM.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'AHP Intel Celeron N4020' 67899%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'AHP Intel Celeron N4020' 67899%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 5 Detail: Alienware m18 R2 Gaming -->
+<div id="product5" class="product-details mt-5">
+  <h2>Alienware m18 R2 Gaming </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/lap/howard-bouchevereau-RSCirJ70NDM-unsplash.jpg' %}" class="img-fluid" alt="Alienware m18 R2 Gaming">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 79349.99</p>
+      <p><strong>Discount:</strong> 9% off</p>
+      <p><strong>Description:</strong> A premium gaming laptop with high-end specs designed for enthusiasts. Equipped with an NVIDIA RTX GPU and a 17.3-inch Full HD display, perfect for gaming and video editing.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Alienware m18 R2 Gaming' 79349%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Alienware m18 R2 Gaming' 79349%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 6 Detail: Lenovo V15 G2 IJL -->
+<div id="product6" class="product-details mt-5">
+  <h2>Lenovo V15 G2 IJL </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/lap/kari-shea-1SAnrIxw5OY-unsplash.jpg' %}" class="img-fluid" alt="Lenovo V15 G2 IJL">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 123799.99</p>
+      <p><strong>Discount:</strong> 2% off</p>
+      <p><strong>Description:</strong> A reliable business laptop with a 15.6-inch display, Intel i5 processor, and fast SSD storage. Ideal for productivity tasks like word processing, browsing, and office work.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Lenovo V15 G2 IJL' 123799%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Lenovo V15 G2 IJL' 123799%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 7 Detail: Asus Vivobook Go 14 -->
+<div id="product7" class="product-details mt-5">
+  <h2>Asus Vivobook Go 14 </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/lap/dell-8pb7Hq539Zw-unsplash.jpg' %}" class="img-fluid" alt="Asus Vivobook Go 14">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 52399.99</p>
+      <p><strong>Discount:</strong> 25% off</p>
+      <p><strong>Description:</strong> A lightweight and portable laptop with a 14-inch screen, perfect for students and professionals who need a machine for basic tasks on the go.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Asus Vivobook Go 14' 52399%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Asus Vivobook Go 14' 52399%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 8 Detail: HP 14" Chromebook Intel Celeron -->
+<div id="product8" class="product-details mt-5">
+  <h2>HP 14" Chromebook Intel Celeron </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/lap/sarah-dorweiler-QeVmJxZOv3k-unsplash.jpg' %}" class="img-fluid" alt="HP 14" Chromebook Intel Celeron">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> 45799.99</p>
+      <p><strong>Discount:</strong> 5% off</p>
+      <p><strong>Description:</strong> A cost-effective Chromebook ideal for browsing, studying, and light work, featuring a 14-inch display and long-lasting battery life for all-day use.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'HP 14 Chromebook Intel Celeron' 45799%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'HP 14 Chromebook Intel Celeron' 45799%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

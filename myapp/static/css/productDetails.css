@@ -1,0 +1,73 @@
+
+.product-image img {
+  width: 100%; /* Full width of its column */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
+  max-width: 600px; /* Set a maximum width for the image */
+}
+.product-details {
+  margin-top: 20px;
+}
+.discount {
+  font-size: 1.2em;
+  color: red;
+  font-weight: bold;
+}
+.price {
+  font-size: 1.5em;
+  color: green;
+  font-weight: bold;
+}
+.button-container {
+  margin-top: 20px;
+  text-align: left; /* Align buttons to the left */
+
+
+}
+.button-container button {
+  margin: 0px 10px; /* Equal margin on left and right */
+  width: 300px; /* Increase button width */
+  border-radius: 25px; /* Add border radius */
+  font-size: 1em; /* Increase font size for better visibility */
+  padding: 10px; /* Increase padding for a better look */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+.btn:hover {
+  background-color: #0056b3; /* Darken primary button on hover */
+}
+.btn-success:hover {
+  background-color: #218838; /* Darken success button on hover */
+}
+.details-row {
+  margin-top: 20px;
+}
+.details-row div {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.offer-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.offer-card:hover {
+  transform: translateY(-5px);
+}
+
+h3 {
+  color: #007bff;
+}
+
+.col-md-2 button{
+    font-weight: bold;
+}

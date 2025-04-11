@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-form-container,
+.contact-info,
+.location-map,
+.social-media,
+.faq {
+    margin-bottom: 3rem;
+}
+
+.contact-form-container h2,
+.contact-info h2,
+.location-map h2,
+.social-media h2,
+.faq h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: .7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #555;
+    transform: translateY(-3px);
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.location-map iframe {
+    border: 0;
+}
+
+.social-media .social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #555;
+    transform: translateY(-3px);
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+}
+
+.faq-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.faq-item p {
+    font-size: 1.1rem;
+}
+.containe{
+    padding: 10px;
+    border: 1px solid #f0eded;
+    border-radius: 5px;
+    background-color: #f1e8e8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UltraBook Pro Details</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   {% load static %}
+  <link rel="stylesheet" href="{% static 'css/productDetails.css' %}">
+</head>
+<body>
+
+<div class="container mt-5">
+
+<!-- Product 1 Detail: Men Solid Polo Neck Poly Cotton Dark Green T-Shirt -->
+<div id="tshirt1" class="product-details mt-5">
+  <h2>Men Solid Polo Neck Poly Cotton Dark Green T-Shirt </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/tshirt/tuananh-blue-0VAlyu7j5wE-unsplash.jpg' %}" class="img-fluid" alt="Men Solid Polo Neck Poly Cotton Dark Green T-Shirt">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> ₹849.99</p>
+      <p><strong>Discount:</strong> 20% off</p>
+      <p><strong>Description:</strong> This stylish men’s polo-neck t-shirt is made from high-quality poly-cotton fabric, offering a comfortable and breathable fit. The dark green color adds a touch of elegance, perfect for both casual outings and semi-formal events. Ideal for the modern man looking for versatility and style.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Men Solid Polo Neck Poly Cotton Dark Green T-Shirt' 849%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Men Solid Polo Neck Poly Cotton Dark Green T-Shirt' 849%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 2 Detail: Men Printed Round Neck Pure Cotton Green T-Shirt -->
+<div id="tshirt2" class="product-details mt-5">
+  <h2>Men Printed Round Neck Pure Cotton Green T-Shirt</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/tshirt/keagan-henman-xPJYL0l5Ii8-unsplash.jpg' %}" class="img-fluid" alt="Men Printed Round Neck Pure Cotton Green T-Shirt">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> ₹599.99</p>
+      <p><strong>Discount:</strong> 10% off</p>
+      <p><strong>Description:</strong> Made from 100% pure cotton, this green t-shirt features a trendy printed design and a round neck. Its lightweight fabric ensures comfort throughout the day, making it an essential piece for casual wear. The breathable material is perfect for warmer climates and everyday activities.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Men Printed Round Neck Pure Cotton Green T-Shirt' 599%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Men Printed Round Neck Pure Cotton Green T-Shirt' 599%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 3 Detail: Men Solid High Neck Wool Blend Black T-Shirt -->
+<div id="tshirt3" class="product-details mt-5">
+  <h2>Men Solid High Neck Wool Blend Black T-Shirt </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/tshirt/cristofer-maximilian-AqLIkOzWDAk-unsplash.jpg' %}" class="img-fluid" alt="Men Solid High Neck Wool Blend Black T-Shirt">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> ₹299.99</p>
+      <p><strong>Discount:</strong> 15% off</p>
+      <p><strong>Description:</strong> This men’s high neck t-shirt is crafted from a soft wool blend, providing warmth and comfort. The black color makes it a versatile choice for both casual and formal settings. It is perfect for layering during colder weather or as a standalone piece for a chic, sophisticated look.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Men Solid High Neck Wool Blend Black T-Shirt' 299%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Men Solid High Neck Wool Blend Black T-Shirt' 299%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Product 4 Detail: Men Printed Round Neck Polyester Multicolor T-Shirt -->
+<div id="tshirt4" class="product-details mt-5">
+  <h2>Men Printed Round Neck Polyester Multicolor T-Shirt </h2>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{% static 'images/tshirt/m-ghufanil-muta-ali-hT1R6Z5pY5I-unsplash.jpg' %}" class="img-fluid" alt="Men Printed Round Neck Polyester Multicolor T-Shirt">
+    </div>
+    <div class="col-md-6">
+      <p><strong>Price:</strong> ₹749.99</p>
+      <p><strong>Discount:</strong> 25% off</p>
+      <p><strong>Description:</strong> This polyester multicolor t-shirt features a fun, printed design that makes a bold fashion statement. The round neck adds to its casual appeal, while the polyester fabric provides durability and easy maintenance. Ideal for men who want to stand out and add some color to their wardrobe.</p>
+      <div class="button-container">
+          <a href="{% url 'add_to_cart' 'Men Printed Round Neck Polyester Multicolor T-Shirt' 749%}"><button type="button" class="btn btn-warning">Add to Cart</button></a><br><br>
+       <a href="{% url 'payment' 'Men Printed Round Neck Polyester Multicolor T-Shirt' 749%}"> <button type="button" class="btn btn-warning">Buy Now</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Additional Content in Row -->
+  <div class="row details-row">
+    <div class="col-md-2">
+      <button type="button" class="btn emi-offer-btn" >EMI Offer</button>
+      <p>12 months EMI at no extra cost</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn bank-offer-btn">Bank Offer</button>
+      <p>10% cashback with XYZ Bank</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn delivery-btn">Delivery</button>
+      <p>Free delivery</p>
+      <p>Expected by 5-7 business days</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn stock-btn">Stock</button>
+      <p>In Stock: Yes</p>
+    </div>
+    <div class="col-md-2">
+      <button type="button" class="btn return-btn">Return Policy</button>
+      <p>30-day return policy</p>
+      <p>Full refund guaranteed</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+      <h2>Special Offers</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Buy 1 Get 1 Free</h3>
+                  <p>Purchase any UltraBook Pro and get another for free! Perfect for gifting.</p>
+                  <button class="btn btn-primary">Shop Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>10% Cashback</h3>
+                  <p>Get 10% cashback on purchases made with XYZ Bank cards.</p>
+                  <button class="btn btn-success">Learn More</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Free Delivery</h3>
+                  <p>Enjoy free delivery on all orders above $500. Fast and reliable service!</p>
+                  <button class="btn btn-warning">Check Eligibility</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="row mt-3">
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Exclusive Student Discount</h3>
+                  <p>Students can enjoy an additional 15% discount on all laptops.</p>
+                  <button class="btn btn-info">Verify Now</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Extended Warranty</h3>
+                  <p>Purchase an extended warranty for just $49 and protect your device.</p>
+                  <button class="btn btn-secondary">Get Warranty</button>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="offer-card text-center">
+                  <h3>Bundle Deals</h3>
+                  <p>Buy a laptop and get 50% off on accessories! Upgrade your setup today.</p>
+                  <button class="btn btn-danger">View Bundles</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

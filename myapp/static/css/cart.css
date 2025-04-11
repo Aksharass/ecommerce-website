@@ -1,0 +1,66 @@
+
+/* Cart items styling */
+.cart-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cart-item:hover {
+    background-color: #f1f1f1; /* Background change on hover */
+    transform: translateY(-5px); /* Lift the item slightly */
+}
+
+/* Item title, price, and discount */
+.cart-item h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+
+.btn-warning {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    margin-right:20px;
+}
+
+.btn-warning:hover {
+    background-color: #ffbb00; /* Change color on hover */
+    transform: scale(1.05); /* Slight scale-up effect */
+}
+
+.btn-warning:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.5); /* Focus effect */
+}
+
+.btn-warning:active {
+    background-color: #ffaa00; /* Active color change */
+    transform: scale(0.95); /* Slight scale-down effect when clicked */
+}
+
+/* Button container at the bottom */
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,104 @@
+/* styles.css */
+
+/* General Container Styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Column Content Styles */
+.column-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+/* Hover Effect */
+.column-content:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Warning Button */
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-warning:active {
+    background-color: #c69500;
+    transform: scale(0.95);
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary:active {
+    background-color: #004085;
+    transform: scale(0.95);
+}
+
+/* Success Button */
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-success:active {
+    background-color: #1e7e34;
+    transform: scale(0.95);
+}
+
+/* Centering the content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
